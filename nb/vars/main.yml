@@ -1,1 +1,3 @@
 ansible_password: aaaaa
+ansible_host: aaaa
+ansible_username: fdsfa
