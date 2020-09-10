@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  # Collection モジュールの読み込み
+  collections:
+    - netbox.netbox
+
+
+  tasks:
+    - import_role:
+        name: nb
