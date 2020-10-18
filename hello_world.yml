@@ -2,7 +2,7 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Hello Message my
       debug:
         msg: "Hello World!"
     - name: set_stats
