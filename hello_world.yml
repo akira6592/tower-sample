@@ -1,0 +1,11 @@
+
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: set_stats
+      set_stats:
+        data:
+          stats_var1: val11111
