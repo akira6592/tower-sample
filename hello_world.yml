@@ -4,7 +4,7 @@
   tasks:
     - name: Hello Message my
       debug:
-        msg: "{{ AWX_TASK_ENV }}"
+        msg: hello
         
    
     - name: set_stats
